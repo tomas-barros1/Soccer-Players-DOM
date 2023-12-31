@@ -1,0 +1,57 @@
+body {
+    background-color: gray;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#form {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+div {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#confirmar {
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#confirmar:hover {
+    background-color: #45a049;
+}
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista li {
+    background-color: #555;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
